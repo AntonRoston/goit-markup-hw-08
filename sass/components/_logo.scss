@@ -1,0 +1,26 @@
+
+/* Logo */
+.logo > span:hover,
+.logo > span:focus {
+	color: var(--accent-color);
+}
+
+.logo {
+	color: var(--accent-color);
+	font-family: Raleway, sans-serif;
+	font-size: 26px;
+	line-height: 1.19;
+	text-decoration: none;
+}
+.logo-header {
+	color: #000000;
+}
+
+.logo-footer {
+	color: var(--primary-white-color);
+}
+
+.logo.footer {
+	display: block;
+	margin-bottom: 20px;
+}
