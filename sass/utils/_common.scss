@@ -54,3 +54,14 @@
 			margin: 0;
 		}
 }
+
+@media screen and (min-width: 768px) and (max-width: 1199px){
+	
+		.section {
+			padding-top: 60px;
+			padding-bottom: 60px;}
+	
+			.section-title{
+				margin: 0;
+			}
+	}
