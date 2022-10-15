@@ -93,3 +93,16 @@
 
 	letter-spacing: 0.03em;
 }
+
+@media screen and (max-width: 767px){
+	.filter-item {
+		width: 100vw;
+		margin-right: 0;
+	}
+
+	.filter-item img{
+		width: 100%;
+	}
+}
+
+

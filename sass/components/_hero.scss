@@ -9,7 +9,7 @@
 	margin-left: auto;
 	margin-right: auto;
 	background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-		url(../images/backgraund-hero.jpg);
+		url(../images/Header_img_desk_1x.jpg);
 	background-color: var(--bg-secondary-color);
 }
 
@@ -26,4 +26,43 @@
 	text-align: center;
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
+}
+
+
+@media screen and (max-width: 767px){
+	.hero-title{
+		font-size: 26px;
+line-height: 1.6;
+	}
+
+	.hero{
+		padding-top: 118px;
+		padding-bottom: 118px;
+
+		height: 400px;
+	max-width: 1600px;
+		background-size: cover;
+		background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+		url(../images/Header_img_mob_1x.jpg);
+	}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px){
+	.hero{
+		padding-top: 118px;
+		padding-bottom: 118px;
+		padding-left: 204px;
+		padding-right: 204px;
+
+		height: 400px;
+	max-width: 1600px;
+		background-size: cover;
+		background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+		url(../images/Header_img_tab_1x.jpg);
+	}
+	.hero-title{
+		font-size: 26px;
+line-height: 1.6;
+	}
 }

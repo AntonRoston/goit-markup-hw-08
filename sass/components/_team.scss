@@ -1,7 +1,7 @@
 .team {
 	background-color: var(--secondary-color);
-}
 
+	
 .team-list {
 	display: flex;
 }
@@ -60,4 +60,44 @@
 .social-item a:focus {
 	background: var(--accent-color);
 	fill: var(--primary-white-color);
+}
+
+@media screen and (max-width: 767px){
+	.team-list {
+		display: block;
+		width: 100%;
+	}
+
+	.team-item{
+		margin-right: auto;
+		width: 100%;
+		margin-top: 30px;
+	}
+
+	.team-item img{
+		width: 100%;
+	}
+
+	.social-item-list {
+		padding-bottom: 24px;
+	}
+}
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1199px){
+	.team-list {
+		flex-wrap: wrap;
+		gap: 30px;
+		
+		
+	}
+	.team .team-item {
+		width:calc(50% - 15px);
+		margin-right: 0;
+	}
+	.team-item img{
+		width:100% ;
+	}
 }

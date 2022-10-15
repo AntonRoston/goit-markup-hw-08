@@ -36,7 +36,6 @@
 	}
 	
 	
-}
 
 .icon-one::before {
 	background-image: url("../images/svg/antenna.svg");
@@ -52,4 +51,63 @@
 
 .icon-foure::before {
 	background-image: url("../images/svg/astronaut.svg");
+}
+
+	}
+
+	@media screen and (max-width: 767px){
+		
+		.feature {
+			padding-bottom: 30px;
+		}
+
+		.feature__list {
+			display: block;
+			margin: auto;
+			
+		}
+
+		.feature__item {
+			max-width: 100%;
+			margin-right: auto;
+			padding-bottom: 30px;
+		}
+		.feature__list .title {
+			text-align: center;
+			font-weight: 700;
+			font-size: 14px;
+			line-height: 1.14;
+			text-transform: uppercase;
+		}
+
+			
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px){
+	.feature {
+		padding-bottom: 30px;
+	}
+
+	.feature__list {
+		// display: block;
+		gap: 30px;
+		flex-wrap: wrap;
+		margin: auto;
+		
+	}
+
+	.feature__item {
+		// flex-wrap: wrap;
+		max-width:calc(50% - 15px);		
+		margin-right: 0;
+		padding-bottom: 30px;
+	}
+	.feature__list .title {
+		text-align: center;
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 1.14;
+		text-transform: uppercase;
+	}
+
 }

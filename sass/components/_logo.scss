@@ -24,3 +24,19 @@
 	display: block;
 	margin-bottom: 20px;
 }
+
+@media screen and (max-width: 767px){
+	.logo {
+		font-weight: 700;
+font-size: 24px;
+line-height: 1.3;
+letter-spacing: 0.03em;
+
+padding-top: 16px;
+padding-bottom: 16px;
+	}
+
+	.logo.footer{
+		padding: 0;
+	}
+}
