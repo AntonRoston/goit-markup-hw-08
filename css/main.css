@@ -173,7 +173,7 @@ img {
   margin-bottom: 50px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .filter-button {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -1483,5 +1483,19 @@ img {
   }
   .filter-item img {
     width: 100%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .filter-item {
+    margin: 0;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    max-width: calc(50% - 15px);
+    margin-right: 0;
+  }
+  .filter-list {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 30px;
   }
 }/*# sourceMappingURL=main.css.map */

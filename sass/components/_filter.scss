@@ -106,3 +106,16 @@
 }
 
 
+@media screen and (min-width: 768px) and (max-width: 1199px){
+.filter-item{
+	margin: 0;
+	flex-wrap: wrap;
+	max-width:calc(50% - 15px);	
+	margin-right: 0;
+	
+}
+.filter-list{
+	flex-wrap: wrap;
+	gap: 30px;
+}
+}
