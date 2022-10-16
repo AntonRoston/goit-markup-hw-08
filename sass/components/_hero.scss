@@ -11,6 +11,10 @@
 	background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
 		url(../images/Header_img_desk_1x.jpg);
 	background-color: var(--bg-secondary-color);
+	@include retina{
+		background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+		url(../images/Header_img_desk_2x.jpg);
+	}
 }
 
 .hero-title {
@@ -31,6 +35,7 @@
 
 @media screen and (max-width: 767px){
 	.hero-title{
+		max-width: 480px;
 		font-size: 26px;
 line-height: 1.6;
 	}
@@ -44,6 +49,11 @@ line-height: 1.6;
 		background-size: cover;
 		background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
 		url(../images/Header_img_mob_1x.jpg);
+
+		@include retina{
+			background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+			url(../images/Header_img_mob_2x.jpg);
+		}
 	}
 
 }
@@ -60,6 +70,11 @@ line-height: 1.6;
 		background-size: cover;
 		background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
 		url(../images/Header_img_tab_1x.jpg);
+
+		@include retina{
+			background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+			url(../images/Header_img_tab_2x.jpg);
+		}
 	}
 	.hero-title{
 		font-size: 26px;
