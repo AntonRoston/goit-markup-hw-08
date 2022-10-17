@@ -169,14 +169,19 @@
 		}
 
 		.user-field{
-			display: block;
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: column;
 		}
 		.user-field input{
+			margin: auto;
 			margin-bottom: 20px;
 		}
 
 		.footer-user input{
-			width: 100%;
+		
+			max-width: 100%;
+			width: 450px;
 		}
 
 		.button-user{
@@ -221,7 +226,7 @@
 		}
 
 		.footer-user input{
-			width: 100%;
+			width: 450px;
 		}
 
 		.button-user{

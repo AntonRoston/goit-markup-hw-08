@@ -176,7 +176,7 @@
 	top: 0;
 	left: 0;
 	width: 100vw;
-	height: 100vh;
+	height: 100%;
 	padding: 48px 40px;
 	background-color: var(--primary-white-color);
 	z-index: 999;
@@ -231,6 +231,7 @@
 
 .menu-social{
 	display: flex;
+	flex-wrap: wrap;
 	margin-top: 64px;
 
 	font-weight: 500;
